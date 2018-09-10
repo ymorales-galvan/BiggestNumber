@@ -1,17 +1,23 @@
 //Author:
 #include<iostream>
 
-using namespace std; //so we don't need the prefix std::
-
 int main()
 {
-  
-  cout<<"Please enter a whole number:\n";
-  
-  cout<<"Please enter another whole number:\n";
+  //declare variables here
 
-  cout<<"Of those two numbers, the biggest is: ";
-  cout<<endl<<"Thank you for playing.\n";
+  std::cout<<"Please enter a whole number:\n";
+  //get first input using std::cin>>
 
+  std::cout<<"Please enter another whole number:\n";
+  //get second input using std::cin>> again with a second variable
+
+  //determine if first or second is bigger and store that in a third variable
+
+
+  std::cout<<"Of those two numbers, the biggest is: ";
+  //print out the variable representing the biggest number
+
+  std::cout<<std::endl<<"Thank you for playing.\n";
+  
   return 0;
 }
